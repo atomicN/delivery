@@ -27,7 +27,6 @@ const cartButton = document.querySelector("#cart-button"),
       cart = [];
       
 let login = localStorage.getItem('delivery');
-//checking for authorization
 
 const getData = async function(url){
   const response = await fetch(url);
